@@ -7,6 +7,7 @@
  * https://developer.spotify.com/documentation/web-api/tutorials/code-flow
  */
 
+require('dotenv').config();
 var express = require('express');
 var request = require('request');
 var crypto = require('crypto');
@@ -14,8 +15,8 @@ var cors = require('cors');
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
 
-var client_id = 'yourClientIDGoesHere'; // your clientId
-var client_secret = 'YourSecretIDGoesHere'; // Your secret
+var client_id = process.env.SPOTIFY_CLIENT_ID;
+var client_secret = process.env.SPOTIFY_CLIENT_SECRET;
 var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
 
 
