@@ -1,4 +1,5 @@
 # Your Spotify playback ranking
+Inspired by a [Spotify Authorization Code example](https://github.com/spotify/web-api-examples/tree/master/authorization/authorization_code).
 
 ## Installation
 ```
