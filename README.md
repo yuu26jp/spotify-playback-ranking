@@ -1,4 +1,4 @@
-# Spotify API test
+# Your Spotify playback ranking
 
 ## Installation
 ```
